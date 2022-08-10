@@ -11,6 +11,7 @@ void printArray(int arr[], int len){
     for(i=0;i<len;i++){
         printf("%d\t",arr[i]);
     }
+    printf("\n");
 }
 int partition(int arr[],int low, int high){
     int pivot = arr[high];
